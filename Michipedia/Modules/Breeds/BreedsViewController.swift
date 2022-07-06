@@ -16,6 +16,11 @@ class BreedsViewController: UIViewController, BreedsViewProtocol {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        setupUI()
+    }
+    
+    private func setupUI() {
+        navigationController?.setNavigationBarHidden(true, animated: false)
     }
 
 
