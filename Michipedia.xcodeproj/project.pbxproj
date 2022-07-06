@@ -17,6 +17,7 @@
 		A4D18D88287532F700C6E848 /* BreedsEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D18D87287532F700C6E848 /* BreedsEntity.swift */; };
 		A4D18D8A2875336000C6E848 /* BreedsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D18D892875336000C6E848 /* BreedsRouter.swift */; };
 		A4D18D8C287533AE00C6E848 /* BreedsProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D18D8B287533AE00C6E848 /* BreedsProtocols.swift */; };
+		A4D18D91287545E400C6E848 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D18D90287545E400C6E848 /* UIView+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		A4D18D87287532F700C6E848 /* BreedsEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedsEntity.swift; sourceTree = "<group>"; };
 		A4D18D892875336000C6E848 /* BreedsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedsRouter.swift; sourceTree = "<group>"; };
 		A4D18D8B287533AE00C6E848 /* BreedsProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedsProtocols.swift; sourceTree = "<group>"; };
+		A4D18D90287545E400C6E848 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 		A4D18D6728752D5700C6E848 /* Michipedia */ = {
 			isa = PBXGroup;
 			children = (
+				A4D18D8D287545CC00C6E848 /* Utils */,
 				A4D18D7D287531AC00C6E848 /* Modules */,
 				A4D18D7C2875319400C6E848 /* SupportingFiles */,
 				A4D18D7628752D5A00C6E848 /* Info.plist */,
@@ -101,6 +104,22 @@
 				A4D18D8B287533AE00C6E848 /* BreedsProtocols.swift */,
 			);
 			path = Breeds;
+			sourceTree = "<group>";
+		};
+		A4D18D8D287545CC00C6E848 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				A4D18D8F287545D900C6E848 /* Extensions */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		A4D18D8F287545D900C6E848 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A4D18D90287545E400C6E848 /* UIView+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,6 +199,7 @@
 				A4D18D84287532B400C6E848 /* BreedsInteractor.swift in Sources */,
 				A4D18D812875326000C6E848 /* BreedsViewController.swift in Sources */,
 				A4D18D88287532F700C6E848 /* BreedsEntity.swift in Sources */,
+				A4D18D91287545E400C6E848 /* UIView+Extensions.swift in Sources */,
 				A4D18D8A2875336000C6E848 /* BreedsRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

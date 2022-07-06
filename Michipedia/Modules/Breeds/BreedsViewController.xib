@@ -11,6 +11,8 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BreedsViewController" customModule="Michipedia" customModuleProvider="target">
             <connections>
+                <outlet property="factButton" destination="FA1-te-FgX" id="bRG-Ib-x8X"/>
+                <outlet property="titleLabel" destination="IZc-kA-8Tm" id="bXg-0t-Rv9"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -23,19 +25,19 @@
                     <rect key="frame" x="32" y="68" width="350" height="67"/>
                     <subviews>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Find the best cat facts on earth" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IZc-kA-8Tm">
-                            <rect key="frame" x="0.0" y="0.0" width="262" height="67"/>
+                            <rect key="frame" x="0.0" y="0.0" width="254" height="67"/>
                             <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="28"/>
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FA1-te-FgX">
-                            <rect key="frame" x="310" y="0.0" width="40" height="40"/>
+                            <rect key="frame" x="302" y="0.0" width="48" height="48"/>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <constraints>
-                                <constraint firstAttribute="width" constant="40" id="PqE-WR-6d9"/>
-                                <constraint firstAttribute="height" constant="40" id="rBO-be-UZw"/>
+                                <constraint firstAttribute="width" constant="48" id="PqE-WR-6d9"/>
+                                <constraint firstAttribute="height" constant="48" id="rBO-be-UZw"/>
                             </constraints>
-                            <inset key="imageEdgeInsets" minX="8" minY="8" maxX="8" maxY="8"/>
+                            <inset key="imageEdgeInsets" minX="12" minY="12" maxX="12" maxY="12"/>
                             <state key="normal" image="ic.paw"/>
                         </button>
                     </subviews>
